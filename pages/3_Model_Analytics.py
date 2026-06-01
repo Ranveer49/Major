@@ -50,30 +50,36 @@ y_raw = df[TARGET_H2].astype(float)
 y = np.log1p(y_raw) if LOG_TRANSFORM else y_raw
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-preds_log = h_model.predict(X_test)
-preds_orig = np.expm1(preds_log) if LOG_TRANSFORM else preds_log
-y_test_orig = np.expm1(y_test) if LOG_TRANSFORM else y_test
+try:
+    preds_log = h_model.predict(X_test)
+    preds_orig = np.expm1(preds_log) if LOG_TRANSFORM else preds_log
+    y_test_orig = np.expm1(y_test) if LOG_TRANSFORM else y_test
 
-r2 = r2_score(y_test_orig, preds_orig)
-mae = mean_absolute_error(y_test_orig, preds_orig)
-rmse = np.sqrt(mean_squared_error(y_test_orig, preds_orig))
-cv_r2 = meta.get("cv_r2_mean")
-cv_std = meta.get("cv_r2_std")
+    r2 = r2_score(y_test_orig, preds_orig)
+    mae = mean_absolute_error(y_test_orig, preds_orig)
+    rmse = np.sqrt(mean_squared_error(y_test_orig, preds_orig))
+    cv_r2 = meta.get("cv_r2_mean")
+    cv_std = meta.get("cv_r2_std")
 
-c1, c2, c3, c4 = st.columns(4)
-c1.metric("Test R2", f"{r2:.4f}")
-c2.metric("MAE", f"{mae:.4f}")
-c3.metric("RMSE", f"{rmse:.4f}")
-c4.metric("CV R2", f"{cv_r2:.4f} ± {cv_std:.4f}" if cv_r2 is not None else "N/A")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Test R2", f"{r2:.4f}")
+    c2.metric("MAE", f"{mae:.4f}")
+    c3.metric("RMSE", f"{rmse:.4f}")
+    c4.metric("CV R2", f"{cv_r2:.4f} ± {cv_std:.4f}" if cv_r2 is not None else "N/A")
 
-if r2 >= 0.75:
-    st.success(f"R2 = {r2:.4f}. Strong predictive performance for a literature-aggregated bioprocess dataset.")
-elif r2 >= 0.55:
-    st.info(f"R2 = {r2:.4f}. Useful performance, with expected limits from dataset heterogeneity.")
-else:
-    st.warning(f"R2 = {r2:.4f}. Check data quality, units, and target consistency before relying on predictions.")
+    if r2 >= 0.75:
+        st.success(f"R2 = {r2:.4f}. Strong predictive performance for a literature-aggregated bioprocess dataset.")
+    elif r2 >= 0.55:
+        st.info(f"R2 = {r2:.4f}. Useful performance, with expected limits from dataset heterogeneity.")
+    else:
+        st.warning(f"R2 = {r2:.4f}. Check data quality, units, and target consistency before relying on predictions.")
 
-st.plotly_chart(actual_vs_predicted(y_test_orig.values, preds_orig, "Actual vs Predicted - H2 Yield"), use_container_width=True)
+    st.plotly_chart(actual_vs_predicted(y_test_orig.values, preds_orig, "Actual vs Predicted - H2 Yield"), use_container_width=True)
+except AttributeError as exc:
+    st.error("The saved model was trained with a different scikit-learn runtime than the current server.")
+    st.info("The repository now pins Python and package versions for Streamlit Cloud. Reboot the app after this fix is deployed.")
+    st.caption(f"Model compatibility detail: {exc}")
+    st.stop()
 
 with st.expander("Run Live Cross-Validation"):
     if st.button("Run CV"):
