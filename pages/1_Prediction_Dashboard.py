@@ -1,11 +1,9 @@
-import os
-
-import joblib
 import numpy as np
 import pandas as pd
 import streamlit as st
 
 from utils.charts import vfa_bar, vfa_pie
+from utils.modeling import load_or_train_models
 from utils.predict import predict_all
 from utils.ui import apply_app_style, page_header
 
@@ -21,26 +19,11 @@ page_header(
 
 @st.cache_resource
 def load_models():
-    errors = []
-    h_model, v_model = None, None
-    for path, name in [("models/hydrogen_model.pkl", "Hydrogen"), ("models/vfa_model.pkl", "VFA")]:
-        if os.path.exists(path):
-            model = joblib.load(path)
-            if name == "Hydrogen":
-                h_model = model
-            else:
-                v_model = model
-        else:
-            errors.append(f"{name} model not found at `{path}`.")
-    return h_model, v_model, errors
+    h_model, v_model, meta, _ = load_or_train_models()
+    return h_model, v_model, meta
 
 
-hydrogen_model, vfa_model, model_errors = load_models()
-if model_errors:
-    for err in model_errors:
-        st.error(err)
-    st.info("Run `python train_models.py --synthetic` to generate demo models.")
-    st.stop()
+hydrogen_model, vfa_model, model_meta = load_models()
 
 
 SUBSTRATE_CATEGORY = {
@@ -154,7 +137,7 @@ with col_btn:
 
 if run:
     with st.spinner("Running models..."):
-        results = predict_all(hydrogen_model, vfa_model, input_df)
+        results = predict_all(hydrogen_model, vfa_model, input_df, model_meta)
 
     h2 = results["hydrogen_yield"]
     vfas = results["vfas"]

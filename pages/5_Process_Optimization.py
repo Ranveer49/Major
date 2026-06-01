@@ -1,10 +1,8 @@
-import os
-
-import joblib
 import numpy as np
 import plotly.express as px
 import streamlit as st
 
+from utils.modeling import load_or_train_models
 from utils.optimization import optimization_report, optimize_conditions, sensitivity_analysis
 from utils.ui import apply_app_style, page_header
 
@@ -20,14 +18,11 @@ page_header(
 
 @st.cache_resource
 def load_h_model():
-    path = "models/hydrogen_model.pkl"
-    return joblib.load(path) if os.path.exists(path) else None
+    h_model, _, _, _ = load_or_train_models()
+    return h_model
 
 
 h_model = load_h_model()
-if h_model is None:
-    st.error("Hydrogen model not found. Run `python train_models.py --synthetic` first.")
-    st.stop()
 
 st.markdown("### Fixed Conditions")
 col1, col2 = st.columns(2)
