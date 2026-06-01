@@ -1,0 +1,251 @@
+Paper_ID,Organism,Substrate,Substrate_Category,Temp_C,pH,Time_h,Reactor_Type,Culture_Type,Process_Mode,Continuous_System,Thermophilic,Electrofermentation,Photofermentation,Nanomaterial_Assisted,HRT_h,OLR_gL_d,Hydrogen_Yield,Yield_Unit,HPR,HPR_units,Metabolites,HPR_mL_L_h_standardized,Standardized_HPR_Unit
+Ref152,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.33,molH2_molSubstrate,,,,,mL_H2_L_h
+Ref146A,Escherichia coli WDHL,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.3,molH2_molGlucose,,,,,mL_H2_L_h
+Ref80,Clostridium butyricum TERI BH05-2 in recombinant E.coli,Glucose,Simple_Sugar,37.0,7.0,48,Batch,Recombinant,Batch,0,0,0,0,0,,,3.2,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T2_01,Clostridiaceae_and_Flexibacteraceae,Glucose,,35.0,5.5,,Membrane,,Continuous,0,0,0,0,0,3.3,,4.0,molH2_molGlucose,640.0,cm3_H2_L_h,"Acetate,Butyrate",640.0,mL_H2_L_h
+Zagrodnik2024_SE8_MPC,MPC,DFE,VFA_Effluent,32.0,7.0,9,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,2.34,molH2_molSugar,4.83,mL_L-1_h-1,,4.83,mL_H2_L_h
+Ref86,Clostridium butyricum DSM10702,Glucose,Simple_Sugar,37.0,5.5,12,Hybrid,PureCulture,Hybrid,1,0,0,0,0,,,2.61,molH2_molGlucose,,,,,mL_H2_L_h
+Ref152,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.33,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T3_02,Mixed_cultures,Organic_municipal_solid_waste,,50.0,5.0,,CSTR,,Semi_continuous,0,1,0,0,0,,,,,5.7,dm3_H2_L_d,"Butyrate,Acetate",237.5,mL_H2_L_h
+Zagrodnik2024_CC2_RSC,RSC,Sugar mix,Lignocellulosic_Sugars,32.0,7.5,11,Continuous_CSTR,MixedCulture,CoCulture,1,0,0,0,0,84.0,1.43,2.6,molH2_molSugar,23.29,mL_L-1_h-1,,23.29,mL_H2_L_h
+Ref136,Klebsiella pneumoniae Y7_3,Corn straw,Lignocellulose,37.0,,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.18,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T2_11,Mixed_culture,Sucrose,,35.0,5.5,,Fermenter,,Batch,0,0,0,0,0,,,2.0,molH2_molGlucose,1504.0,cm3_H2_h,"Acetate,Butyrate",1504.0,mL_H2_L_h
+Ref149C,Escherichia coli XL1_Blue,Xylose,Pentose,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.69,molH2_molXylose,,,,,mL_H2_L_h
+Ref153,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.15,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T6_05,Mixed_cultures,Grass,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,4.39,cm3_H2_gSubstrate,3.53,cm3_H2_h,"Acetate,Propionate,Butyrate",3.53,mL_H2_L_h
+RSE2018_T3_11,Facultative_anaerobic_bacteria,Raw_cassava_starch,,35.0,,,Batch,,Batch,0,0,0,0,0,,,1.44,molH2_molGlucose,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+RSE2018_T6_03,Mixed_culture_from_sewage_sludge,Rice_straw,,55.0,6.5,,Batch,,Batch,0,1,0,0,0,,,24.8,cm3_H2_gDB,744.0,cm3_H2_L,"Acetate,Butyrate,Ethanol",744.0,mL_H2_L_h
+Ref128,Klebsiella pneumoniae ECU15,"Glucose,Xylose,Cellobiose",Mixed_Sugars,37.0,6.0, ,Batch,PureCulture,Batch,0,0,0,0,0,,,2.07,molH2_molGlucose,,,,,mL_H2_L_h
+Ref67,Clostridium butyricum TM-9A,Glucose,Simple_Sugar,37.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.1,molH2_molGlucose,,,,,mL_H2_L_h
+Ref136,Klebsiella pneumoniae Y7_3,Corn straw,Lignocellulose,37.0,,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.18,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T6_11,Caldicellulosiruptor_saccharolyticus,Wheat_straw,,70.0,,,Batch,,Batch,0,1,0,0,0,,,3.8,molH2_molGlucose,44.68,dm3_H2_kg,Mixed acids,44.68,mL_H2_L_h
+Ref108,Clostridium pasteurianum MTCC116,Glycerol,Alcohol,36.0,6.7,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.5,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T3_10,Anaerobic_sludge_from_digester,Mixed_food_waste,,50.0,7.5,,Batch,,Batch,0,1,0,0,0,,,57.0,cm3_H2_gVS,54.2,cm3_H2_h,Mixed acids,54.2,mL_H2_L_h
+Ref86,Clostridium butyricum DSM10702,Glucose,Simple_Sugar,37.0,5.5,12,Hybrid,PureCulture,Hybrid,1,0,0,0,0,,,2.61,molH2_molGlucose,,,,,mL_H2_L_h
+MartinezMendoza2024_6h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,6.0,188.1,37.9,NmLH2_gVSfed,295.83,mL_L-1_h-1,,295.83,mL_H2_L_h
+Ref87,Clostridium butyricum + Sporolactobacillus vineae,Glucose,Simple_Sugar,35.0,,32,Batch,CoCulture,Batch,0,0,0,0,0,,,1.84,molH2_molGlucose,,,,,mL_H2_L_h
+Ref137,Klebsiella pneumoniae ABZ11,Glucose,Simple_Sugar,34.0,6.8,48,Batch,PureCulture,Batch,0,0,0,0,0,,,2.71,molH2_molGlucose,,,,,mL_H2_L_h
+Ref124,Enterobacter aerogenes ATCC13048,Mahogany wood hydrolysate,Lignocellulose,37.0,,48,Batch,PureCulture,Batch,0,0,0,0,0,,,0.03,molH2_molGlucose,,,,,mL_H2_L_h
+Zagrodnik2024_SE1_RSC,RSC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,3.88,molH2_molSugar,18.71,mL_L-1_h-1,,18.71,mL_H2_L_h
+Ref80,Clostridium butyricum TERI BH05-2 in recombinant E.coli,Glucose,Simple_Sugar,37.0,7.0,48,Batch,Recombinant,Batch,0,0,0,0,0,,,3.2,molH2_molGlucose,,,,,mL_H2_L_h
+Ref126,Enterobacter aerogenes 2822,Cheese whey,Dairy_Waste,31.0,6.5,104,Batch,PureCulture,Batch,0,0,0,0,0,,,0.26,molH2_molLactose,,,,,mL_H2_L_h
+RSE2018_T2_02,Enterobacter_cloacae,Glucose,,36.0,6.0,,Batch,,Batch,0,0,0,0,0,,,2.2,molH2_molGlucose,447.0,cm3_H2_L_h,Mixed acids,447.0,mL_H2_L_h
+MartinezMendoza2024_16h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,16.0,70.6,54.6,NmLH2_gVSfed,162.5,mL_L-1_h-1,,162.5,mL_H2_L_h
+Zagrodnik2024_SE3_MPC,MPC,DFE,VFA_Effluent,32.0,7.5,15,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,3.07,molH2_molSugar,3.79,mL_L-1_h-1,,3.79,mL_H2_L_h
+RSE2018_T3_11,Facultative_anaerobic_bacteria,Raw_cassava_starch,,35.0,,,Batch,,Batch,0,0,0,0,0,,,1.44,molH2_molGlucose,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+Ref126,Enterobacter aerogenes 2822,Cheese whey,Dairy_Waste,31.0,6.5,104,Batch,PureCulture,Batch,0,0,0,0,0,,,0.26,molH2_molLactose,,,,,mL_H2_L_h
+RSE2018_T4_04,Anaerobic_sludge,Potato_and_pumpkin_waste_with_buffalo_manure,,35.0,7.5,,Batch,,Batch,0,0,0,0,0,,,135.6,cm3_H2_gVS,,,"Acetate,Propionate,Butyrate",,mL_H2_L_h
+Ref86,Clostridium butyricum DSM10702,Glucose,Simple_Sugar,37.0,5.5,12,Hybrid,PureCulture,Hybrid,1,0,0,0,0,,,2.61,molH2_molGlucose,,,,,mL_H2_L_h
+Zagrodnik2024_CC1_RSC,RSC,Sugar mix,Lignocellulosic_Sugars,32.0,7.0,9,Continuous_CSTR,MixedCulture,CoCulture,1,0,0,0,0,84.0,1.43,2.88,molH2_molSugar,25.83,mL_L-1_h-1,,25.83,mL_H2_L_h
+Ref83,Clostridium butyricum NRRL_B4112,Glycerol,Alcohol,37.0,,168,Batch,PureCulture,Batch,0,0,0,0,0,,,1.02,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T4_01,Mixed_cultures_from_anaerobic_digester,Liquid_swine_manure,,37.0,5.0,,ASBR,,Batch,0,0,0,0,0,,,1.63,molH2_molGlucose,0.1,dm3_H2_L_h,"Acetate,Butyrate",100.0,mL_H2_L_h
+Ref137,Klebsiella pneumoniae ABZ11,Glucose,Simple_Sugar,34.0,6.8,48,Batch,PureCulture,Batch,0,0,0,0,0,,,2.71,molH2_molGlucose,,,,,mL_H2_L_h
+Zagrodnik2024_SE1_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,2.83,molH2_molSugar,9.25,mL_L-1_h-1,,9.25,mL_H2_L_h
+Ref79,Clostridium butyricum CWBI1009,Glucose,Simple_Sugar,30.0,7.3,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.43,molH2_molGlucose,,,,,mL_H2_L_h
+Ref75A,Clostridium butyricum CCT7470,Cellulose,Lignocellulose,37.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.19,molH2_molCellulose,,,,,mL_H2_L_h
+Ref143,Escherichia coli K12,Garden waste,Lignocellulose,33.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.73,molH2_molCellulose,,,,,mL_H2_L_h
+Ref128,Klebsiella pneumoniae ECU15,"Glucose,Xylose,Cellobiose",Mixed_Sugars,37.0,6.0, ,Batch,PureCulture,Batch,0,0,0,0,0,,,2.07,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_10,Anaerobic_sludge_from_digester,Mixed_food_waste,,50.0,7.5,,Batch,,Batch,0,1,0,0,0,,,57.0,cm3_H2_gVS,54.2,cm3_H2_h,Mixed acids,54.2,mL_H2_L_h
+Ref132,Klebsiella pneumoniae TR17,Glycerol,Alcohol,40.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.25,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref145,Escherichia coli W3110,Hemicellulosic hydrolysates,Lignocellulose,31.0,8.2,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.44,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T2_05,Mixed_culture,Glucose,,36.0,5.5,,CSTR,,Continuous,0,0,0,0,0,6.0,,2.1,molH2_molGlucose,,,Butyrate,,mL_H2_L_h
+Ref74,Clostridium butyricum CGS2,Glucose,Simple_Sugar,37.0,6.8,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.95,molH2_molGlucose,,,,,mL_H2_L_h
+Ref105,Clostridium pasteurianum MTCC116,Glucose,Simple_Sugar,37.0,6.6,96,Batch,PureCulture,Batch,0,0,0,0,0,,,0.0036,molH2_molGlucose,,,,,mL_H2_L_h
+Ref129,Klebsiella pneumoniae MGH78578,Brewery wastewater,Industrial_Waste,35.0,5.5,72,Batch,PureCulture,Batch,0,0,0,0,0,,,1.235,molH2_molGlucose,,,,,mL_H2_L_h
+Ref125,Enterobacter aerogenes IAM1183,Glucose,Simple_Sugar,37.0,,20,Batch,PureCulture,Batch,0,0,0,0,0,,,1.34,molH2_molGlucose,,,,,mL_H2_L_h
+Ref153,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.15,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T4_01,Mixed_cultures_from_anaerobic_digester,Liquid_swine_manure,,37.0,5.0,,ASBR,,Batch,0,0,0,0,0,,,1.63,molH2_molGlucose,0.1,dm3_H2_L_h,"Acetate,Butyrate",100.0,mL_H2_L_h
+Ref67,Clostridium butyricum TM-9A,Glucose,Simple_Sugar,37.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.1,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T4_03,Clostridium_sp,Dairy_manures,,36.0,5.0,,CSABR,,Continuous,0,0,0,0,0,,,31.5,cm3_H2_gTVS,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+MartinezMendoza2024_24h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,24.0,47.0,66.6,NmLH2_gVSfed,129.17,mL_L-1_h-1,,129.17,mL_H2_L_h
+Ref155,Escherichia coli HD701,"Glucose,Sucrose,Starch",Mixed_Sugars,35.0,7.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.0,molH2_molGlucose,,,,,mL_H2_L_h
+Ref70,Clostridium butyricum SP4,Hexose and pentose,Mixed_Sugars,30.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.225,molH2_molSugar,,,,,mL_H2_L_h
+MartinezMendoza2024_24h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,24.0,47.0,66.6,NmLH2_gVSfed,129.17,mL_L-1_h-1,,129.17,mL_H2_L_h
+RSE2018_T5_10,Mixed_culture_UASB,Cassava_starch_wastewater,,30.0,5.5,,Batch,,Batch,0,0,0,0,0,,,1.58,molH2_molHexose,12.87,cm3_H2_L_h,Mixed acids,12.87,mL_H2_L_h
+Ref117,Clostridium thermocellum KJC315,Cellobiose,Disaccharide,60.0,7.0,24,Batch,PureCulture,Batch,0,1,0,0,0,,,3.26,molH2_molHexose,,,,,mL_H2_L_h
+Ref79,Clostridium butyricum CWBI1009,Glucose,Simple_Sugar,30.0,7.3,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.43,molH2_molGlucose,,,,,mL_H2_L_h
+Ref146C,Escherichia coli WDHL,Galactose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.12,molH2_molGalactose,,,,,mL_H2_L_h
+Ref123,Enterobacter aerogenes ATCC13408,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,1.435,molH2_molGlucose,,,,,mL_H2_L_h
+Ref80,Clostridium butyricum TERI BH05-2 in recombinant E.coli,Glucose,Simple_Sugar,37.0,7.0,48,Batch,Recombinant,Batch,0,0,0,0,0,,,3.2,molH2_molGlucose,,,,,mL_H2_L_h
+Ref110,Clostridium pasteurianum CH5,Xylose,Pentose,35.0,6.8,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,1.46,molH2_molXylose,,,,,mL_H2_L_h
+Ref130,Klebsiella pneumoniae ECU15,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.22,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T2_05,Mixed_culture,Glucose,,36.0,5.5,,CSTR,,Continuous,0,0,0,0,0,6.0,,2.1,molH2_molGlucose,,,Butyrate,,mL_H2_L_h
+Ref128,Klebsiella pneumoniae ECU15,"Glucose,Xylose,Cellobiose",Mixed_Sugars,37.0,6.0, ,Batch,PureCulture,Batch,0,0,0,0,0,,,2.07,molH2_molGlucose,,,,,mL_H2_L_h
+Ref52,Clostridium beijerincki,Dextrose,Simple_Sugar,37.0,7.5,96,Batch,PureCulture,Batch,0,0,0,0,0,,,3.58,molH2_molDextrose,,,,,mL_H2_L_h
+RSE2018_T6_07,Caldicellulosiruptor_saccharolyticus_DSM8903,Switchgrass,,65.0,,,Batch,,Batch,0,1,0,0,0,,,310.0,cm3_H2_gDB,0.1,mmol_H2_L_h,"Acetate,Succinic_acid",2.24,mL_H2_L_h
+RSE2018_T3_04,Anaerobic_digester_sludge,Kitchen_garbage,,55.0,5.0,,CSTR,,Continuous,0,1,0,0,0,,,66.0,cm3_H2_gVS,1.7,dm3_H2_L_d,"Butyrate,Acetate,Ethanol",70.83333333,mL_H2_L_h
+Ref114,Clostridium thermocellum DSM1237,Cellulose,Lignocellulose,60.0,7.35,,Batch,PureCulture,Batch,0,1,0,0,0,,,1.3,molH2_molHexose,,,,,mL_H2_L_h
+RSE2018_T6_10,Caldicellulosiruptor_saccharolyticus,Corn_leaves,,70.0,,,Batch,,Batch,0,1,0,0,0,,,1.8,molH2_molGlucose,15.33,dm3_H2_kg,Mixed acids,15.33,mL_H2_L_h
+Ref80,Clostridium butyricum TERI BH05-2 in recombinant E.coli,Glucose,Simple_Sugar,37.0,7.0,48,Batch,Recombinant,Batch,0,0,0,0,0,,,3.2,molH2_molGlucose,,,,,mL_H2_L_h
+Ref118,Clostridium thermocellum DSM1313,Cellulose,Lignocellulose,55.0,7.0,192,Batch,PureCulture,Batch,0,1,0,0,0,,,1.15,molH2_molHexose,,,,,mL_H2_L_h
+Zagrodnik2024_SE4_RSC,RSC,DFE,VFA_Effluent,32.0,7.5,11,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,126.0,0.25,3.63,molH2_molSugar,5.46,mL_L-1_h-1,,5.46,mL_H2_L_h
+Ref137,Klebsiella pneumoniae ABZ11,Glucose,Simple_Sugar,34.0,6.8,48,Batch,PureCulture,Batch,0,0,0,0,0,,,2.71,molH2_molGlucose,,,,,mL_H2_L_h
+Zagrodnik2024_SE8_RSC,RSC,DFE,VFA_Effluent,32.0,7.0,9,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,3.29,molH2_molSugar,13.33,mL_L-1_h-1,,13.33,mL_H2_L_h
+Ref75A,Clostridium butyricum CCT7470,Cellulose,Lignocellulose,37.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.19,molH2_molCellulose,,,,,mL_H2_L_h
+Ref136,Klebsiella pneumoniae Y7_3,Corn straw,Lignocellulose,37.0,,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.18,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T3_09,Anaerobic_sludge,Kitchen_waste,,55.0,5.5,,Batch,,Batch,0,1,0,0,0,,,,,79.0,mmol_H2_L_d,"Butyrate,Lactate,Acetate",79.0,mL_H2_L_h
+RSE2018_T4_05,Sewage_sludge,Cattle_wastewater,,45.0,5.5,,Batch,,Batch,0,0,0,0,0,,,12.41,mmol_H2_gCOD,0.34,dm3_H2_L_h,"Butyrate,Acetate,Ethanol",340.0,mL_H2_L_h
+Zagrodnik2024_SE3_RSC,RSC,DFE,VFA_Effluent,32.0,7.5,15,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,2.35,molH2_molSugar,1.67,mL_L-1_h-1,,1.67,mL_H2_L_h
+RSE2018_T5_03,Enterobacter_aerogenes_HU101,Glycerol_waste,,37.0,6.8,,Packed_bed,,Continuous,0,0,0,0,0,,,1.12,molH2_molGlycerol,63.0,mmol_H2_L_h,"Ethanol,Acetate,1_3_Propanediol",1411.2,mL_H2_L_h
+Ref129,Klebsiella pneumoniae MGH78578,Brewery wastewater,Industrial_Waste,35.0,5.5,72,Batch,PureCulture,Batch,0,0,0,0,0,,,1.235,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T4_05,Sewage_sludge,Cattle_wastewater,,45.0,5.5,,Batch,,Batch,0,0,0,0,0,,,12.41,mmol_H2_gCOD,0.34,dm3_H2_L_h,"Butyrate,Acetate,Ethanol",340.0,mL_H2_L_h
+Ref103,Clostridium pasteurianum,Glucose,Simple_Sugar,30.0,7.0,60,Batch,PureCulture,Batch,0,0,0,0,0,,,2.34,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_03,Mesophilic_anaerobic_sludge,Organic_municipal_plus_slaughterhouse_waste,,34.0,6.0,,Erlenmeyer_flask,,Continuous,0,0,0,0,0,,,71.3,cm3_H2_gVS,,,"Caproic_acid,Butyrate",,mL_H2_L_h
+Ref71,Clostridium butyricum TM-9A,Sugarcane molasses,Industrial_Waste,37.0,7.5,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.34,molH2_molGlucose,,,,,mL_H2_L_h
+Ref114,Clostridium thermocellum DSM1237,Cellulose,Lignocellulose,60.0,7.35,,Batch,PureCulture,Batch,0,1,0,0,0,,,1.3,molH2_molHexose,,,,,mL_H2_L_h
+Ref93,Clostridium beijerincki ATCC8260,Sucrose,Disaccharide,37.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,9.39,molH2_molSucrose,,,,,mL_H2_L_h
+RSE2018_T4_04,Anaerobic_sludge,Potato_and_pumpkin_waste_with_buffalo_manure,,35.0,7.5,,Batch,,Batch,0,0,0,0,0,,,135.6,cm3_H2_gVS,,,"Acetate,Propionate,Butyrate",,mL_H2_L_h
+Zagrodnik2024_SE8_MPC,MPC,DFE,VFA_Effluent,32.0,7.0,9,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,2.34,molH2_molSugar,4.83,mL_L-1_h-1,,4.83,mL_H2_L_h
+Ref77,Clostridium butyricum NH-02,Maltose,Disaccharide,30.0,7.0,23,Batch,PureCulture,Batch,0,0,0,0,0,,,1.9,molH2_molMaltose,,,,,mL_H2_L_h
+Ref103,Clostridium pasteurianum,Glucose,Simple_Sugar,30.0,7.0,60,Batch,PureCulture,Batch,0,0,0,0,0,,,2.34,molH2_molGlucose,,,,,mL_H2_L_h
+Ref123,Enterobacter aerogenes ATCC13408,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,1.435,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_04,Thermoanaerobacterium_thermosaccharolyticum_M18,Wheat_straw,,60.0,7.0,,Batch,,Batch,0,1,0,0,0,,,3.53,mmol_H2_gSubstrate,0.11,mmol_H2_L_h,"Acetate,Butyrate,Ethanol",2.464,mL_H2_L_h
+Zagrodnik2024_SE2_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,3.3,molH2_molSugar,4.5,mL_L-1_h-1,,4.5,mL_H2_L_h
+Ref107,Clostridium pasteurianum,Glycerol,Alcohol,36.0,6.7,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.63,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref149B,Escherichia coli XL1_Blue,Glucose,Simple_Sugar,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.96,molH2_molGlucose,,,,,mL_H2_L_h
+Ref153,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.15,molH2_molSubstrate,,,,,mL_H2_L_h
+Ref105,Clostridium pasteurianum MTCC116,Glucose,Simple_Sugar,37.0,6.6,96,Batch,PureCulture,Batch,0,0,0,0,0,,,0.0036,molH2_molGlucose,,,,,mL_H2_L_h
+Ref150,Escherichia coli CECT432 + CECT434 + Enterobacter cloacae,Glycerol,Alcohol,37.0,6.3,72,Batch,CoCulture,Batch,0,0,0,0,0,,,0.0044,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T3_11,Facultative_anaerobic_bacteria,Raw_cassava_starch,,35.0,,,Batch,,Batch,0,0,0,0,0,,,1.44,molH2_molGlucose,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+Ref23,Clostridium butyricum DSM2478 + NCIMB8082,Glucose,Simple_Sugar,37.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.09,molH2_molGlucose,,,,,mL_H2_L_h
+Ref71,Clostridium butyricum TM-9A,Sugarcane molasses,Industrial_Waste,37.0,7.5,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.34,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T5_06,Mixed_culture_from_activated_sludge,Brewery_wastewater,,35.0,5.5,,Batch,,Batch,0,0,0,0,0,,,2.0,molH2_molHexose,,,"Butyrate,Acetate,Valeric_acid",,mL_H2_L_h
+Ref152,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.33,molH2_molSubstrate,,,,,mL_H2_L_h
+Ref92,Clostridium beijerincki NCIMB8052,Glucose,Simple_Sugar,37.0,6.5,,Electrofermentation,PureCulture,Electrofermentation,0,0,1,0,0,,,1.51,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T5_01,Mixed_cultures,Cheese_whey,,35.0,5.2,,Batch,,Batch,0,0,0,0,0,,,0.78,molH2_molGlucose,2.9,dm3_H2_L_d,"Butyrate,Acetate,Lactate",120.8333333,mL_H2_L_h
+Ref80,Clostridium butyricum TERI BH05-2 in recombinant E.coli,Glucose,Simple_Sugar,37.0,7.0,48,Batch,Recombinant,Batch,0,0,0,0,0,,,3.2,molH2_molGlucose,,,,,mL_H2_L_h
+Ref143,Escherichia coli K12,Garden waste,Lignocellulose,33.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.73,molH2_molCellulose,,,,,mL_H2_L_h
+Ref115,Clostridium thermocellum DSM1313,Cellulose,Lignocellulose,60.0,7.0,,Continuous,PureCulture,Continuous,1,1,0,0,0,,,0.985,molH2_molHexose,,,,,mL_H2_L_h
+RSE2018_T3_04,Anaerobic_digester_sludge,Kitchen_garbage,,55.0,5.0,,CSTR,,Continuous,0,1,0,0,0,,,66.0,cm3_H2_gVS,1.7,dm3_H2_L_d,"Butyrate,Acetate,Ethanol",70.83333333,mL_H2_L_h
+Zagrodnik2024_SE3_RSC,RSC,DFE,VFA_Effluent,32.0,7.5,15,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,2.35,molH2_molSugar,1.67,mL_L-1_h-1,,1.67,mL_H2_L_h
+Ref147,Escherichia coli BW25113,Glucose,Simple_Sugar,37.0,7.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.05,molH2_molGlucose,,,,,mL_H2_L_h
+Ref127,Klebsiella pneumoniae DSM2026,Glycerol,Alcohol,37.0,6.5,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.8,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref147,Escherichia coli BW25113,Glucose,Simple_Sugar,37.0,7.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.05,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T4_01,Mixed_cultures_from_anaerobic_digester,Liquid_swine_manure,,37.0,5.0,,ASBR,,Batch,0,0,0,0,0,,,1.63,molH2_molGlucose,0.1,dm3_H2_L_h,"Acetate,Butyrate",100.0,mL_H2_L_h
+RSE2018_T6_04,Thermoanaerobacterium_thermosaccharolyticum_M18,Wheat_straw,,60.0,7.0,,Batch,,Batch,0,1,0,0,0,,,3.53,mmol_H2_gSubstrate,0.11,mmol_H2_L_h,"Acetate,Butyrate,Ethanol",2.464,mL_H2_L_h
+RSE2018_T5_07,Mixed_culture_from_activated_sludge,Jatropha_biodiesel_residue,,37.0,5.5,,CSTR,,Continuous,0,0,0,0,0,,,148.0,cm3_H2_gCarbohydrate,3.65,dm3_H2_L_d,"Butyrate,Ethanol",152.0833333,mL_H2_L_h
+Ref94,Clostridium beijerincki NCIMB8052,Glucose,Simple_Sugar,32.0,6.5,120,Batch,PureCulture,Photofermentation,0,0,0,1,0,,,2.47,molH2_molGlucose,,,,,mL_H2_L_h
+Ref106,Clostridium pasteurianum DSM525,Glucose,Simple_Sugar,37.0,,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,3.55,molH2_molGlucose,,,,,mL_H2_L_h
+Ref78,Clostridium butyricum CWBI1009,Glucose,Simple_Sugar,30.0,7.3,,Batch,PureCulture,Batch,0,0,0,0,0,,,3.1,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_13,Mixed_cultures,Soybean_straw,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,5.46,cm3_H2_gSubstrate,,,"Butyrate,Valerate,Propionate",,mL_H2_L_h
+Zagrodnik2024_SE8_RSC,RSC,DFE,VFA_Effluent,32.0,7.0,9,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,3.29,molH2_molSugar,13.33,mL_L-1_h-1,,13.33,mL_H2_L_h
+Ref134,Klebsiella pneumoniae TR17,Glycerol,Alcohol,40.0,8.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.26,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref93,Clostridium beijerincki ATCC8260,Sucrose,Disaccharide,37.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,9.39,molH2_molSucrose,,,,,mL_H2_L_h
+Zagrodnik2024_SE4_MPC,MPC,DFE,VFA_Effluent,32.0,7.5,11,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,126.0,0.25,2.66,molH2_molSugar,2.58,mL_L-1_h-1,,2.58,mL_H2_L_h
+Ref118,Clostridium thermocellum DSM1313,Cellulose,Lignocellulose,55.0,7.0,192,Batch,PureCulture,Batch,0,1,0,0,0,,,1.15,molH2_molHexose,,,,,mL_H2_L_h
+Zagrodnik2024_SE2_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,3.3,molH2_molSugar,4.5,mL_L-1_h-1,,4.5,mL_H2_L_h
+RSE2018_T4_03,Clostridium_sp,Dairy_manures,,36.0,5.0,,CSABR,,Continuous,0,0,0,0,0,,,31.5,cm3_H2_gTVS,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+Ref93,Clostridium beijerincki ATCC8260,Sucrose,Disaccharide,37.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,9.39,molH2_molSucrose,,,,,mL_H2_L_h
+Ref93,Clostridium beijerincki ATCC8260,Sucrose,Disaccharide,37.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,9.39,molH2_molSucrose,,,,,mL_H2_L_h
+RSE2018_T2_02,Enterobacter_cloacae,Glucose,,36.0,6.0,,Batch,,Batch,0,0,0,0,0,,,2.2,molH2_molGlucose,447.0,cm3_H2_L_h,Mixed acids,447.0,mL_H2_L_h
+Ref117,Clostridium thermocellum KJC315,Cellobiose,Disaccharide,60.0,7.0,24,Batch,PureCulture,Batch,0,1,0,0,0,,,3.26,molH2_molHexose,,,,,mL_H2_L_h
+Ref132,Klebsiella pneumoniae TR17,Glycerol,Alcohol,40.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.25,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref95,Clostridium beijerincki NCIMB8052,Glucose:Xylose,Mixed_Sugars,30.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.09,molH2_molSugar,,,,,mL_H2_L_h
+Zagrodnik2024_CC2_RSC,RSC,Sugar mix,Lignocellulosic_Sugars,32.0,7.5,11,Continuous_CSTR,MixedCulture,CoCulture,1,0,0,0,0,84.0,1.43,2.6,molH2_molSugar,23.29,mL_L-1_h-1,,23.29,mL_H2_L_h
+RSE2018_T3_08,Mixed_culture_from_digested_sludge,Simulated_food_waste,,34.0,5.5,,CSTR,,Continuous,0,0,0,0,0,,,20.5,dm3_H2_kgVS,0.23,Ndm3_H2_L_d,"Acetate,Butyrate,Caproic_acid",9.583333333,mL_H2_L_h
+Ref145,Escherichia coli W3110,Hemicellulosic hydrolysates,Lignocellulose,31.0,8.2,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.44,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T3_09,Anaerobic_sludge,Kitchen_waste,,55.0,5.5,,Batch,,Batch,0,1,0,0,0,,,,,79.0,mmol_H2_L_d,"Butyrate,Lactate,Acetate",79.0,mL_H2_L_h
+RSE2018_T3_01,Mixed_cultures,Kitchen_waste,,50.0,5.5,,Inclined_plug_flow,,Continuous,0,0,0,0,0,,,,,72.0,cm3_H2_gVS,"Butyrate,Acetate,Propionate",72.0,mL_H2_L_h
+Ref92,Clostridium beijerincki NCIMB8052,Glucose,Simple_Sugar,37.0,6.5,,Electrofermentation,PureCulture,Electrofermentation,0,0,1,0,0,,,1.51,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_01,Mixed_cultures,Kitchen_waste,,50.0,5.5,,Inclined_plug_flow,,Continuous,0,0,0,0,0,,,,,72.0,cm3_H2_gVS,"Butyrate,Acetate,Propionate",72.0,mL_H2_L_h
+RSE2018_T2_10,Mixed_culture,Sucrose,,35.0,6.7,,CSTR,,Continuous,0,0,0,0,0,8.0,,3.47,molH2_molSucrose,0.105,mol_H2_h,Butyrate,0.105,mL_H2_L_h
+Ref69,Clostridium butyricum RAK25832,Glucose,Simple_Sugar,30.0,8.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.81,molH2_molGlucose,,,,,mL_H2_L_h
+Ref152,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.33,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T6_08,Clostridium_sartagoforme_FZ11,Cornstalk,,35.0,6.5,,Batch,,Batch,0,0,0,0,0,,,87.2,cm3_H2_gSubstrate,6.2,cm3_H2_g_h,"Acetate,Butyrate,Ethanol",6.2,mL_H2_L_h
+RSE2018_T5_01,Mixed_cultures,Cheese_whey,,35.0,5.2,,Batch,,Batch,0,0,0,0,0,,,0.78,molH2_molGlucose,2.9,dm3_H2_L_d,"Butyrate,Acetate,Lactate",120.8333333,mL_H2_L_h
+Zagrodnik2024_SE2_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,3.3,molH2_molSugar,4.5,mL_L-1_h-1,,4.5,mL_H2_L_h
+Ref126,Enterobacter aerogenes 2822,Cheese whey,Dairy_Waste,31.0,6.5,104,Batch,PureCulture,Batch,0,0,0,0,0,,,0.26,molH2_molLactose,,,,,mL_H2_L_h
+RSE2018_T6_05,Mixed_cultures,Grass,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,4.39,cm3_H2_gSubstrate,3.53,cm3_H2_h,"Acetate,Propionate,Butyrate",3.53,mL_H2_L_h
+Zagrodnik2024_SE1_RSC,RSC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,3.88,molH2_molSugar,18.71,mL_L-1_h-1,,18.71,mL_H2_L_h
+RSE2018_T2_12,Clostridium_termolacticum,Lactose,,58.0,7.0,,CSTR,,Continuous,0,1,0,0,0,35.7,,1.5,molH2_molHexose,2.58,mmol_H2_L_h,Acetate,57.792,mL_H2_L_h
+RSE2018_T6_13,Mixed_cultures,Soybean_straw,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,5.46,cm3_H2_gSubstrate,,,"Butyrate,Valerate,Propionate",,mL_H2_L_h
+Ref147,Escherichia coli BW25113,Glucose,Simple_Sugar,37.0,7.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.05,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Zagrodnik2024_SE2_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,252.0,0.25,3.3,molH2_molSugar,4.5,mL_L-1_h-1,,4.5,mL_H2_L_h
+Ref127,Klebsiella pneumoniae DSM2026,Glycerol,Alcohol,37.0,6.5,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.8,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref77,Clostridium butyricum NH-02,Maltose,Disaccharide,30.0,7.0,23,Batch,PureCulture,Batch,0,0,0,0,0,,,1.9,molH2_molMaltose,,,,,mL_H2_L_h
+Ref109,Clostridium pasteurianum CH5,Xylose,Pentose,35.0,6.8,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,0.16,molH2_molXylose,,,,,mL_H2_L_h
+RSE2018_T3_10,Anaerobic_sludge_from_digester,Mixed_food_waste,,50.0,7.5,,Batch,,Batch,0,1,0,0,0,,,57.0,cm3_H2_gVS,54.2,cm3_H2_h,Mixed acids,54.2,mL_H2_L_h
+RSE2018_T3_11,Facultative_anaerobic_bacteria,Raw_cassava_starch,,35.0,,,Batch,,Batch,0,0,0,0,0,,,1.44,molH2_molGlucose,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Ref150,Escherichia coli CECT432 + CECT434 + Enterobacter cloacae,Glycerol,Alcohol,37.0,6.3,72,Batch,CoCulture,Batch,0,0,0,0,0,,,0.0044,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Ref129,Klebsiella pneumoniae MGH78578,Brewery wastewater,Industrial_Waste,35.0,5.5,72,Batch,PureCulture,Batch,0,0,0,0,0,,,1.235,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Ref67,Clostridium butyricum TM-9A,Glucose,Simple_Sugar,37.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.1,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_10,Anaerobic_sludge_from_digester,Mixed_food_waste,,50.0,7.5,,Batch,,Batch,0,1,0,0,0,,,57.0,cm3_H2_gVS,54.2,cm3_H2_h,Mixed acids,54.2,mL_H2_L_h
+MartinezMendoza2024_24h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,24.0,47.0,66.6,NmLH2_gVSfed,129.17,mL_L-1_h-1,,129.17,mL_H2_L_h
+Ref135,Klebsiella pneumoniae TR17,Glycerol,Alcohol,40.0,8.0,12,UASB,PureCulture,UASB,1,0,0,0,0,,,4.08,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T3_09,Anaerobic_sludge,Kitchen_waste,,55.0,5.5,,Batch,,Batch,0,1,0,0,0,,,,,79.0,mmol_H2_L_d,"Butyrate,Lactate,Acetate",79.0,mL_H2_L_h
+RSE2018_T5_11,Mixed_culture,Palm_oil_decanter_cake_with_glycerin,,55.0,7.0,,Batch,,Semi_continuous,0,1,0,0,0,,,,,0.89,dm3_H2_L_d,Mixed acids,37.08333333,mL_H2_L_h
+RSE2018_T3_06,Mixed_culture,Potato_steam_peels,,75.0,6.9,,Batch,,Batch,0,1,0,0,0,,,3.8,molH2_molGlucose,12.5,mmol_H2_L_h,"Acetate,Lactate",280.0,mL_H2_L_h
+RSE2018_T3_10,Anaerobic_sludge_from_digester,Mixed_food_waste,,50.0,7.5,,Batch,,Batch,0,1,0,0,0,,,57.0,cm3_H2_gVS,54.2,cm3_H2_h,Mixed acids,54.2,mL_H2_L_h
+Ref128,Klebsiella pneumoniae ECU15,"Glucose,Xylose,Cellobiose",Mixed_Sugars,37.0,6.0, ,Batch,PureCulture,Batch,0,0,0,0,0,,,2.07,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_13,Mixed_cultures,Soybean_straw,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,5.46,cm3_H2_gSubstrate,,,"Butyrate,Valerate,Propionate",,mL_H2_L_h
+RSE2018_T6_13,Mixed_cultures,Soybean_straw,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,5.46,cm3_H2_gSubstrate,,,"Butyrate,Valerate,Propionate",,mL_H2_L_h
+Zagrodnik2024_SE5_MPC,MPC,DFE,VFA_Effluent,32.0,7.5,8,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,42.0,0.76,2.22,molH2_molSugar,3.83,mL_L-1_h-1,,3.83,mL_H2_L_h
+RSE2018_T3_03,Mesophilic_anaerobic_sludge,Organic_municipal_plus_slaughterhouse_waste,,34.0,6.0,,Erlenmeyer_flask,,Continuous,0,0,0,0,0,,,71.3,cm3_H2_gVS,,,"Caproic_acid,Butyrate",,mL_H2_L_h
+RSE2018_T5_09,Mixed_culture,Citric_acid_wastewater,,36.0,7.0,,UASB,,Continuous,0,0,0,0,0,,,0.84,molH2_molHexose,0.72,m3_H2_m3_d,"Acetate,Propionate",30.0,mL_H2_L_h
+Ref108,Clostridium pasteurianum MTCC116,Glycerol,Alcohol,36.0,6.7,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.5,molH2_molGlycerol,,,,,mL_H2_L_h
+Ref52,Clostridium beijerincki,Dextrose,Simple_Sugar,37.0,7.5,96,Batch,PureCulture,Batch,0,0,0,0,0,,,3.58,molH2_molDextrose,,,,,mL_H2_L_h
+Zagrodnik2024_SE6_RSC,RSC,DFE,VFA_Effluent,32.0,7.5,6,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,4.15,molH2_molSugar,21.17,mL_L-1_h-1,,21.17,mL_H2_L_h
+RSE2018_T2_10,Mixed_culture,Sucrose,,35.0,6.7,,CSTR,,Continuous,0,0,0,0,0,8.0,,3.47,molH2_molSucrose,0.105,mol_H2_h,Butyrate,0.105,mL_H2_L_h
+Ref149A,Escherichia coli XL1_Blue,Fructose,Simple_Sugar,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.17,molH2_molFructose,,,,,mL_H2_L_h
+RSE2018_T5_03,Enterobacter_aerogenes_HU101,Glycerol_waste,,37.0,6.8,,Packed_bed,,Continuous,0,0,0,0,0,,,1.12,molH2_molGlycerol,63.0,mmol_H2_L_h,"Ethanol,Acetate,1_3_Propanediol",1411.2,mL_H2_L_h
+RSE2018_T5_08,Mixed_culture_with_immobilized_E_aerogenes,Waste_glycerol,,37.0,5.5,,UASB,,Continuous,0,0,0,0,0,,,324.0,mmol_H2_molGlycerol,6.2,mmol_H2_L_h,"Ethanol,1_3_Propanediol,Butyrate",138.88,mL_H2_L_h
+Ref148,Escherichia coli WDH_LF,Glucose,Simple_Sugar,31.0,8.2,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.82,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_04,Anaerobic_digester_sludge,Kitchen_garbage,,55.0,5.0,,CSTR,,Continuous,0,1,0,0,0,,,66.0,cm3_H2_gVS,1.7,dm3_H2_L_d,"Butyrate,Acetate,Ethanol",70.83333333,mL_H2_L_h
+Zagrodnik2024_SE6_MPC,MPC,DFE,VFA_Effluent,32.0,7.5,6,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,2.56,molH2_molSugar,6.92,mL_L-1_h-1,,6.92,mL_H2_L_h
+Ref146A,Escherichia coli WDHL,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.3,molH2_molGlucose,,,,,mL_H2_L_h
+Ref69,Clostridium butyricum RAK25832,Glucose,Simple_Sugar,30.0,8.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.81,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_01,Thermoanaerobacterium_thermosaccharolyticum_DD32,Cornstalk,,55.0,7.5,,Batch,,Batch,0,1,0,0,0,,,6.38,mmol_H2_gSubstrate,,,"Acetate,Butyrate,Ethanol",,mL_H2_L_h
+RSE2018_T5_11,Mixed_culture,Palm_oil_decanter_cake_with_glycerin,,55.0,7.0,,Batch,,Semi_continuous,0,1,0,0,0,,,,,0.89,dm3_H2_L_d,Mixed acids,37.08333333,mL_H2_L_h
+Ref143,Escherichia coli K12,Garden waste,Lignocellulose,33.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.73,molH2_molCellulose,,,,,mL_H2_L_h
+RSE2018_T5_11,Mixed_culture,Palm_oil_decanter_cake_with_glycerin,,55.0,7.0,,Batch,,Semi_continuous,0,1,0,0,0,,,,,0.89,dm3_H2_L_d,Mixed acids,37.08333333,mL_H2_L_h
+RSE2018_T6_01,Thermoanaerobacterium_thermosaccharolyticum_DD32,Cornstalk,,55.0,7.5,,Batch,,Batch,0,1,0,0,0,,,6.38,mmol_H2_gSubstrate,,,"Acetate,Butyrate,Ethanol",,mL_H2_L_h
+Ref147,Escherichia coli BW25113,Glucose,Simple_Sugar,37.0,7.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.05,molH2_molGlucose,,,,,mL_H2_L_h
+Ref127,Klebsiella pneumoniae DSM2026,Glycerol,Alcohol,37.0,6.5,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.8,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T3_08,Mixed_culture_from_digested_sludge,Simulated_food_waste,,34.0,5.5,,CSTR,,Continuous,0,0,0,0,0,,,20.5,dm3_H2_kgVS,0.23,Ndm3_H2_L_d,"Acetate,Butyrate,Caproic_acid",9.583333333,mL_H2_L_h
+Ref109,Clostridium pasteurianum CH5,Xylose,Pentose,35.0,6.8,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,0.16,molH2_molXylose,,,,,mL_H2_L_h
+Ref130,Klebsiella pneumoniae ECU15,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,1.22,molH2_molGlucose,,,,,mL_H2_L_h
+Ref153,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.15,molH2_molSubstrate,,,,,mL_H2_L_h
+RSE2018_T3_09,Anaerobic_sludge,Kitchen_waste,,55.0,5.5,,Batch,,Batch,0,1,0,0,0,,,,,79.0,mmol_H2_L_d,"Butyrate,Lactate,Acetate",79.0,mL_H2_L_h
+Ref76,Clostridium butyricum INET1,Glucose,Simple_Sugar,35.0,7.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.07,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_04,Thermoanaerobacterium_thermosaccharolyticum_M18,Wheat_straw,,60.0,7.0,,Batch,,Batch,0,1,0,0,0,,,3.53,mmol_H2_gSubstrate,0.11,mmol_H2_L_h,"Acetate,Butyrate,Ethanol",2.464,mL_H2_L_h
+RSE2018_T6_12,Clostridium_thermocellum_27405,Delignified_wood_fibers,,60.0,,,Batch,,Batch,0,1,0,0,0,,,2.32,molH2_molGlucose,,,"Acetate,Ethanol,Formate",,mL_H2_L_h
+Ref115,Clostridium thermocellum DSM1313,Cellulose,Lignocellulose,60.0,7.0,,Continuous,PureCulture,Continuous,1,1,0,0,0,,,0.985,molH2_molHexose,,,,,mL_H2_L_h
+Ref149B,Escherichia coli XL1_Blue,Glucose,Simple_Sugar,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.96,molH2_molGlucose,,,,,mL_H2_L_h
+Ref73,Clostridium butyricum BOH3,Fruit waste,Food_Waste,37.0,6.8,24,Batch,PureCulture,Batch,0,0,0,0,0,,,2.3,molH2_molSugar,,,,,mL_H2_L_h
+RSE2018_T5_08,Mixed_culture_with_immobilized_E_aerogenes,Waste_glycerol,,37.0,5.5,,UASB,,Continuous,0,0,0,0,0,,,324.0,mmol_H2_molGlycerol,6.2,mmol_H2_L_h,"Ethanol,1_3_Propanediol,Butyrate",138.88,mL_H2_L_h
+Ref143,Escherichia coli K12,Garden waste,Lignocellulose,33.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,2.73,molH2_molCellulose,,,,,mL_H2_L_h
+RSE2018_T2_06,Mixed_culture,Glucose,,70.0,7.2,,UASB,,Continuous,0,1,0,0,0,26.7,,2.46,molH2_molHexose,11.15,mmol_H2_d,Acetate,10.40666667,mL_H2_L_h
+Zagrodnik2024_SE1_MPC,MPC,Sterile DFE,VFA_Effluent,32.0,7.5,20,Continuous_CSTR,MixedCulture,Sequential,1,0,0,0,0,84.0,0.76,2.83,molH2_molSugar,9.25,mL_L-1_h-1,,9.25,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Ref67,Clostridium butyricum TM-9A,Glucose,Simple_Sugar,37.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,3.1,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_09,Anaerobic_sludge,Kitchen_waste,,55.0,5.5,,Batch,,Batch,0,1,0,0,0,,,,,79.0,mmol_H2_L_d,"Butyrate,Lactate,Acetate",79.0,mL_H2_L_h
+Ref123,Enterobacter aerogenes ATCC13408,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,1.435,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T5_04,Mixed_cultures_from_cow_dung,Palm_oil_mill_effluent,,,5.0,,UASB,,Continuous,0,0,0,0,0,,,,,73.0,dm3_H2_d,Mixed acids,73.0,mL_H2_L_h
+Ref107,Clostridium pasteurianum,Glycerol,Alcohol,36.0,6.7,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.63,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T6_13,Mixed_cultures,Soybean_straw,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,5.46,cm3_H2_gSubstrate,,,"Butyrate,Valerate,Propionate",,mL_H2_L_h
+Ref75A,Clostridium butyricum CCT7470,Cellulose,Lignocellulose,37.0,,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.19,molH2_molCellulose,,,,,mL_H2_L_h
+Ref149B,Escherichia coli XL1_Blue,Glucose,Simple_Sugar,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.96,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T5_11,Mixed_culture,Palm_oil_decanter_cake_with_glycerin,,55.0,7.0,,Batch,,Semi_continuous,0,1,0,0,0,,,,,0.89,dm3_H2_L_d,Mixed acids,37.08333333,mL_H2_L_h
+Ref123,Enterobacter aerogenes ATCC13408,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Nanomaterial_Assisted,0,0,0,0,1,,,1.435,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T3_11,Facultative_anaerobic_bacteria,Raw_cassava_starch,,35.0,,,Batch,,Batch,0,0,0,0,0,,,1.44,molH2_molGlucose,,,"Butyrate,Acetate,Ethanol",,mL_H2_L_h
+RSE2018_T6_01,Thermoanaerobacterium_thermosaccharolyticum_DD32,Cornstalk,,55.0,7.5,,Batch,,Batch,0,1,0,0,0,,,6.38,mmol_H2_gSubstrate,,,"Acetate,Butyrate,Ethanol",,mL_H2_L_h
+RSE2018_T6_05,Mixed_cultures,Grass,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,4.39,cm3_H2_gSubstrate,3.53,cm3_H2_h,"Acetate,Propionate,Butyrate",3.53,mL_H2_L_h
+MartinezMendoza2024_24h,MixedCulture,FruitVegetableWaste,Food_Waste,37.0,7.0,,Continuous_CSTR,MixedCulture,Continuous,1,0,0,0,0,24.0,47.0,66.6,NmLH2_gVSfed,129.17,mL_L-1_h-1,,129.17,mL_H2_L_h
+RSE2018_T2_14,Enterobacter_cloacae_IIT_BT08,L_Arabinose,,36.0,6.0,,Batch,,Batch,0,0,0,0,0,,,1.5,molH2_molArabinose,360.0,cm3_H2_L_h,Mixed acids,360.0,mL_H2_L_h
+RSE2018_T6_05,Mixed_cultures,Grass,,35.0,7.0,,Batch,,Batch,0,0,0,0,0,,,4.39,cm3_H2_gSubstrate,3.53,cm3_H2_h,"Acetate,Propionate,Butyrate",3.53,mL_H2_L_h
+RSE2018_T2_10,Mixed_culture,Sucrose,,35.0,6.7,,CSTR,,Continuous,0,0,0,0,0,8.0,,3.47,molH2_molSucrose,0.105,mol_H2_h,Butyrate,0.105,mL_H2_L_h
+Zagrodnik2024_CC2_RSC,RSC,Sugar mix,Lignocellulosic_Sugars,32.0,7.5,11,Continuous_CSTR,MixedCulture,CoCulture,1,0,0,0,0,84.0,1.43,2.6,molH2_molSugar,23.29,mL_L-1_h-1,,23.29,mL_H2_L_h
+RSE2018_T2_07,Mixed_culture,Sucrose,,35.0,6.7,,Immobilized_bed,,Continuous,0,0,0,0,0,1.0,,,,1.32,dm3_H2_L_h,Butyrate,1320.0,mL_H2_L_h
+Ref153,Escherichia coli + Enterobacter aerogenes,"Acetate,Butyrate,Propionate,Lactate",VFA_Effluent,37.0,5.5,,Batch,CoCulture,Batch,0,0,0,0,0,,,0.15,molH2_molSubstrate,,,,,mL_H2_L_h
+Ref132,Klebsiella pneumoniae TR17,Glycerol,Alcohol,40.0,8.0,24,Batch,PureCulture,Batch,0,0,0,0,0,,,0.25,molH2_molGlycerol,,,,,mL_H2_L_h
+RSE2018_T2_06,Mixed_culture,Glucose,,70.0,7.2,,UASB,,Continuous,0,1,0,0,0,26.7,,2.46,molH2_molHexose,11.15,mmol_H2_d,Acetate,10.40666667,mL_H2_L_h
+Ref149B,Escherichia coli XL1_Blue,Glucose,Simple_Sugar,35.0,6.5,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.96,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T6_06,Clostridium_thermocellum_ATCC27405,Barley_hulls,,60.0,,,Batch,,Batch,0,1,0,0,0,,,1.07,mmol_H2_gSubstrate,0.09,mmol_H2_L_h,"Acetate,Formate,Ethanol",2.016,mL_H2_L_h
+Ref146A,Escherichia coli WDHL,Glucose,Simple_Sugar,37.0,6.0,,Batch,PureCulture,Batch,0,0,0,0,0,,,0.3,molH2_molGlucose,,,,,mL_H2_L_h
+RSE2018_T5_10,Mixed_culture_UASB,Cassava_starch_wastewater,,30.0,5.5,,Batch,,Batch,0,0,0,0,0,,,1.58,molH2_molHexose,12.87,cm3_H2_L_h,Mixed acids,12.87,mL_H2_L_h
+RSE2018_T3_08,Mixed_culture_from_digested_sludge,Simulated_food_waste,,34.0,5.5,,CSTR,,Continuous,0,0,0,0,0,,,20.5,dm3_H2_kgVS,0.23,Ndm3_H2_L_d,"Acetate,Butyrate,Caproic_acid",9.583333333,mL_H2_L_h
+RSE2018_T2_04,Clostridia_sp,Glucose,,30.0,6.0,,CSTR,,Continuous,0,0,0,0,0,6.0,,1.42,molH2_molGlucose,7.42,mmol_H2_gVSS_h,Acetate,7.42,mL_H2_L_h
