@@ -1,4 +1,5 @@
 import numpy as np
+import plotly.express as px
 import streamlit as st
 from sklearn.metrics import r2_score
 from sklearn.model_selection import RepeatedKFold, cross_val_score, train_test_split
@@ -56,6 +57,43 @@ st.plotly_chart(
     actual_vs_predicted(metrics["y_test_orig"].values, metrics["preds_orig"], "Actual vs Predicted - H2 Yield"),
     use_container_width=True,
 )
+
+st.markdown("### Hydrogen Yield Distribution: Before and After Log Transform")
+raw_yield = df[[TARGET_H2]].copy()
+raw_yield["Log_Transformed_Hydrogen_Yield"] = np.log1p(raw_yield[TARGET_H2].astype(float))
+
+before_col, after_col = st.columns(2)
+with before_col:
+    fig_raw = px.histogram(
+        raw_yield,
+        x=TARGET_H2,
+        nbins=30,
+        title="Before Log Transform",
+        labels={TARGET_H2: "Hydrogen Yield"},
+        color_discrete_sequence=["#2864a6"],
+    )
+    fig_raw.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(255,255,255,0.72)",
+        margin=dict(l=20, r=20, t=58, b=35),
+    )
+    st.plotly_chart(fig_raw, use_container_width=True)
+
+with after_col:
+    fig_log = px.histogram(
+        raw_yield,
+        x="Log_Transformed_Hydrogen_Yield",
+        nbins=30,
+        title="After Log Transform",
+        labels={"Log_Transformed_Hydrogen_Yield": "log1p(Hydrogen Yield)"},
+        color_discrete_sequence=["#16856f"],
+    )
+    fig_log.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(255,255,255,0.72)",
+        margin=dict(l=20, r=20, t=58, b=35),
+    )
+    st.plotly_chart(fig_log, use_container_width=True)
 
 with st.expander("Run Live Cross-Validation"):
     if st.button("Run CV"):
